@@ -2,8 +2,19 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/databinding">Data Binding</router-link> | 
-    <router-link to="/databindinghtml">Data Binding Html</router-link>
+    <router-link to="/databindinghtml">Data Binding Html</router-link>    | 
+    <router-link to="/databindingInputText">Data Binding InputText</router-link> |
+    <router-link to="/databindingInputNumber">Data Binding InputNumber</router-link> | 
+    <router-link to="/watchData">watch data</router-link> | 
+    <router-link to="/watchExample">watch example</router-link> | 
+    <router-link to="/nested">Nested Componet</router-link> | 
   </div>
+  <hr>
+  <div id="nav">
+    <router-link to="/">Component Home</router-link> |  
+    <router-link to="/compsition/parent">parent</router-link> | 
+  </div>
+  <hr>
   <router-view/>
 </template>
 

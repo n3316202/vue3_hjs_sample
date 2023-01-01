@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
+import NestedComponent from "../views/NestedComponent.vue"
 
 const routes = [
     {
@@ -19,12 +20,42 @@ const routes = [
     {
       path: '/databinding',
       name: 'DataBinding',
-      component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingC.vue')
+      component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBinding.vue')
     },
     {
       path: '/databindinghtml',
       name: 'DataBindingHtml',
-      component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingHtmlC.vue')
+      component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingHtml.vue')
+    },
+    {
+      path: '/databindinginputtext',
+      name: 'DataBindingInputText',
+      component: () => import( /* webpackChunkName: "databindinginputtext" */ '../views/DataBindingInputText.vue')
+    },
+    {
+      path: '/databindinginputnumber',
+      name: 'DataBindingInputNumber',
+      component: () => import( /* webpackChunkName: "databindinginputtext" */ '../views/DataBindingInputNumber.vue')
+    },
+    {
+      path: '/watchdata',
+      name: 'WatchData',
+      component: () => import( /* webpackChunkName: "watch" */ '../views/WatchData.vue')
+    },
+    {
+      path: '/watchexample',
+      name: 'WatchExample',
+      component: () => import( /* webpackChunkName: "watchexample" */ '../views/composition/WatchExample.vue')
+    },
+    {
+      path: '/nested',
+      name: 'NestedComponent',
+      component: NestedComponent
+    },
+    {
+      path: '/compsition/parent',
+      name: 'ParentComponentC',
+      component: () => import( /* webpackChunkName: "parent" */ '../views/composition/ParentComponentC.vue')
     },
   ];
   
