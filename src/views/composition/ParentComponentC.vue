@@ -16,7 +16,9 @@ export default {
     const child_component =  ref(null);
 
     onMounted(() => {
-      console.log(child_component.value.childFunc());
+      //console.log(child_component.value.childFunc());
+      console.log(child_component.value.btn);
+      
     });
 
     return {child_component}
