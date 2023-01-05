@@ -13,6 +13,7 @@
     <router-link to="/nested">Nested Componet</router-link> |
     <router-link to="/databindinglist">Data Binding list</router-link> |
     <router-link to="/firstcomponent">Inject-Provide</router-link> |
+    <router-link to="/props/parentcomponentview">Props 예제</router-link> |
   </div>
   <hr />
   <div id="nav">

@@ -85,11 +85,19 @@ const routes = [
       )
   },
   {
-    path: '/firstcomponent',
+    path: '/firstcomponent', //firstcomponent
     name: 'FirstComponent',
     component: () =>
       import(
         /* webpackChunkName: "firstcomponent" */ '../views/provideinjection/FirstComponent.vue'
+      )
+  },
+  {
+    path: '/props/parentcomponentview', //firstcomponent
+    name: 'ParentComponentView',
+    component: () =>
+      import(
+        /* webpackChunkName: "parentcomponentview" */ '../views/props/ParentComponentView.vue'
       )
   }
 ]
