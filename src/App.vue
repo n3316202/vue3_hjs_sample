@@ -14,6 +14,7 @@
     <router-link to="/databindinglist">Data Binding list</router-link> |
     <router-link to="/firstcomponent">Inject-Provide</router-link> |
     <router-link to="/props/parentcomponentview">Props 예제</router-link> |
+    <router-link to="/computedvsmethodview">Computed VS Method</router-link> |
   </div>
   <hr />
   <div id="nav">

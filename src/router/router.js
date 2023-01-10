@@ -99,6 +99,14 @@ const routes = [
       import(
         /* webpackChunkName: "parentcomponentview" */ '../views/props/ParentComponentView.vue'
       )
+  },
+  {
+    path: '/computedvsmethodview', //firstcomponent
+    name: 'ParentComponentView',
+    component: () =>
+      import(
+        /* webpackChunkName: "computedvsmethodview" */ '../views/ComputedVSMethodView.vue'
+      )
   }
 ]
 
