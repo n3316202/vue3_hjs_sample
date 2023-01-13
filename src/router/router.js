@@ -107,6 +107,15 @@ const routes = [
       import(
         /* webpackChunkName: "computedvsmethodview" */ '../views/ComputedVSMethodView.vue'
       )
+  },
+  ,
+  {
+    path: '/computedvswatch',
+    name: 'ComputedVSWatch',
+    component: () =>
+      import(
+        /* webpackChunkName: "computedvswatch" */ '../views/ComputedVSWatch.vue'
+      )
   }
 ]
 
