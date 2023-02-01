@@ -9,10 +9,15 @@
     <router-link to="/computedvsmethodview">Computed VS Method</router-link> | <router-link to="/computedvswatch">Computed VS Wathch</router-link> |
     <router-link to="/axiosget">엑시오스Get 방식</router-link> | <router-link to="/axiospost">엑시오스Post 방식</router-link> |
     <router-link to="/axiospost2">엑시오스Post2 방식</router-link> | <router-link to="/axiosglobal">엑시오스 글로벌겟 예제</router-link> |
+    <router-link to="/axiossync">엑시오스 동기화 예제</router-link> |
   </div>
   <hr />
   <div id="nav"><router-link to="/">Component Home</router-link> | <router-link to="/compsition/parent">parent</router-link> |</div>
   <hr />
+  <hr />
+  <div id="nav"><router-link to="/">Component Home</router-link> | <router-link to="/compsition/parent">parent</router-link> |</div>
+  <hr />
+
   <router-view />
 </template>
 
