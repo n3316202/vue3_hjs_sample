@@ -122,7 +122,7 @@ import About from '../views/About.vue'
 const routes = [
   { path: '/', name: 'Home', component: Home },
   { path: '/about', name: 'About', component: About },
-  { path: '/about/:name', name: 'About', component: About }
+  { path: '/about/:name', name: 'About2', component: About }
   // { path: '/names', name: 'Names', component: Names },
   // { path: '/user/:name', name: 'User', component: User },
   // { path: '/user2/:name', name: 'User2', component: User2, props: true },
