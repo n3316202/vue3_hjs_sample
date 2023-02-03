@@ -115,6 +115,8 @@
 
 // export default router
 
+//https://ryu-e.tistory.com/53
+
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
@@ -122,7 +124,37 @@ import About from '../views/About.vue'
 const routes = [
   { path: '/', name: 'Home', component: Home },
   { path: '/about', name: 'About', component: About },
-  { path: '/about/:name', name: 'About2', component: About }
+  { path: '/about/:name', name: 'About2', component: About },
+  {
+    path: '/about3',
+    name: 'About3',
+    component: () =>
+      import(/* webpackChunkName: "about3" */ '../views/About.vue')
+  },
+  {
+    path: '/about4',
+    name: 'About4',
+    component: () =>
+      import(/* webpackChunkName: "about3" */ '../views/About.vue')
+  },
+  {
+    path: '/about5',
+    name: 'About5',
+    component: () =>
+      import(/* webpackChunkName: "about3" */ '../views/About.vue')
+  },
+  {
+    path: '/life',
+    name: 'LifeCycle',
+    component: () =>
+      import(/* webpackChunkName: "about3" */ '../views/LifeCycleView.vue')
+  },
+  {
+    path: '/mixin',
+    name: 'Mixin',
+    component: () =>
+      import(/* webpackChunkName: "about3" */ '../views/MixinView.vue')
+  }
   // { path: '/names', name: 'Names', component: Names },
   // { path: '/user/:name', name: 'User', component: User },
   // { path: '/user2/:name', name: 'User2', component: User2, props: true },
