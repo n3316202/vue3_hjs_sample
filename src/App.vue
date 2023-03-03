@@ -24,11 +24,11 @@
   </div>
   <hr />
   <div id="nav">
-    <router-link to="/">Component Home</router-link> |
+    <router-link to="/compo1">컴포지션 기본</router-link> |
     <router-link to="/compsition/parent">parent</router-link> |
   </div>
   <hr />
-  <hr />
+  <!-- <hr />
   <div id="nav">
     <router-link :to="{ name: 'Home' }">홈링크</router-link> |
     <router-link :to="{ name: 'About' }">어바웃링크</router-link> |
@@ -37,7 +37,7 @@
     >
     |
   </div>
-  <hr />
+  <hr /> -->
 
   <router-view />
 </template>
