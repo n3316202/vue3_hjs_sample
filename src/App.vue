@@ -35,10 +35,10 @@
     <router-link :to="{ name: 'About2', params: { name: '홍길동' } }"
       >어바웃링크2</router-link
     >
-    |
   </div>
   <hr />
-
+  <router-link to="/vuex">Vuex: 예제</router-link> |
+  <hr />
   <router-view />
 </template>
 

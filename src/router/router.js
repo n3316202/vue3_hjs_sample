@@ -154,6 +154,12 @@ const routes = [
     name: 'Mixin',
     component: () =>
       import(/* webpackChunkName: "about3" */ '../views/MixinView.vue')
+  },
+  {
+    path: '/vuex',
+    name: 'vuex',
+    component: () =>
+      import(/* webpackChunkName: "vuex" */ '../views/vuex/UsersView.vue')
   }
   // { path: '/names', name: 'Names', component: Names },
   // { path: '/user/:name', name: 'User', component: User },
