@@ -185,7 +185,6 @@ const routes = [
         /* webpackChunkName: "modal" */ '../views/modal/ModalBootStrap5View.vue'
       )
   },
-  ,
   {
     path: '/modal2',
     name: 'modal2',
@@ -193,6 +192,20 @@ const routes = [
       import(
         /* webpackChunkName: "modal2" */ '../views/modal/ModalBootStrap5CompositionApiView.vue'
       )
+  },
+  {
+    path: '/slot',
+    name: 'slot',
+    component: () =>
+      import(
+        /* webpackChunkName: "slot" */ '../views/slot/SlotUseModalLayout.vue'
+      )
+  },
+  {
+    path: '/slot2',
+    name: 'slot2',
+    component: () =>
+      import(/* webpackChunkName: "slot" */ '../views/slot/SlotTitleChild.vue')
   }
   // { path: '/names', name: 'Names', component: Names },
   // { path: '/user/:name', name: 'User', component: User },
