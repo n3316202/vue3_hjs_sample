@@ -160,6 +160,39 @@ const routes = [
     name: 'vuex',
     component: () =>
       import(/* webpackChunkName: "vuex" */ '../views/vuex/UsersView.vue')
+  },
+  {
+    path: '/sweet',
+    name: 'sweet',
+    component: () =>
+      import(
+        /* webpackChunkName: "vuex" */ '../views/sweetalert2/SweetAlert2BasicView.vue'
+      )
+  },
+  {
+    path: '/sweet2',
+    name: 'sweet2',
+    component: () =>
+      import(
+        /* webpackChunkName: "sweet2" */ '../views/sweetalert2/SweetAlert2MutiView.vue'
+      )
+  },
+  {
+    path: '/modal',
+    name: 'modal',
+    component: () =>
+      import(
+        /* webpackChunkName: "modal" */ '../views/modal/ModalBootStrap5View.vue'
+      )
+  },
+  ,
+  {
+    path: '/modal2',
+    name: 'modal2',
+    component: () =>
+      import(
+        /* webpackChunkName: "modal2" */ '../views/modal/ModalBootStrap5CompositionApiView.vue'
+      )
   }
   // { path: '/names', name: 'Names', component: Names },
   // { path: '/user/:name', name: 'User', component: User },

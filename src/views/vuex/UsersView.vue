@@ -15,6 +15,7 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
 import { useStore } from 'vuex'
+
 const store = useStore()
 const msg = ref('Welcome to my Vuex Store')
 

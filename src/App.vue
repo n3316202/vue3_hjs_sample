@@ -38,6 +38,10 @@
   </div>
   <hr />
   <router-link to="/vuex">Vuex: 예제</router-link> |
+  <router-link to="/sweet">sweet alert2 기본 예제</router-link> |
+  <router-link to="/sweet2">sweet alert2 멀티인풋 예제</router-link> |
+  <router-link to="/modal">부트스트랩 모달예제</router-link> |
+  <router-link to="/modal2">부트스트랩 모달예제 with composition</router-link> |
   <hr />
   <router-view />
 </template>
