@@ -206,6 +206,12 @@ const routes = [
     name: 'slot2',
     component: () =>
       import(/* webpackChunkName: "slot" */ '../views/slot/SlotTitleChild.vue')
+  },
+  {
+    path: '/emit',
+    name: 'emit',
+    component: () =>
+      import(/* webpackChunkName: "slot" */ '../views/emit/EmitParent.vue')
   }
   // { path: '/names', name: 'Names', component: Names },
   // { path: '/user/:name', name: 'User', component: User },

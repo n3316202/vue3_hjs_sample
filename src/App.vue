@@ -44,6 +44,7 @@
   <router-link to="/modal2">부트스트랩 모달예제 with composition</router-link> |
   <router-link to="/slot">슬롯 실습</router-link> |
   <router-link to="/slot2">슬롯 실습 기본</router-link> |
+  <router-link to="/emit">Emit 실습</router-link> |
   <hr />
   <router-view />
 </template>
