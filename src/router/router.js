@@ -147,6 +147,38 @@ const routes = [
       import(
         /* webpackChunkName: "axiossyncview" */ '../views/composition/DataBindingC.vue'
       )
+  },
+  {
+    path: '/compo2',
+    name: 'CompoPlus',
+    component: () =>
+      import(
+        /* webpackChunkName: "compoplus" */ '../views/composition/CompositionCalculatorWithFunction.vue'
+      )
+  },
+  {
+    path: '/compo3',
+    name: 'CompoPlus2',
+    component: () =>
+      import(
+        /* webpackChunkName: "compoplus2" */ '../views/composition/CompositionCalculatorWithCompute.vue'
+      )
+  },
+  {
+    path: '/compo4',
+    name: 'compo4',
+    component: () =>
+      import(
+        /* webpackChunkName: "compoplus2" */ '../views/composition/CompositionAPIProvide.vue'
+      )
+  },
+  {
+    path: '/compo5',
+    name: 'compoCount',
+    component: () =>
+      import(
+        /* webpackChunkName: "compocount" */ '../views/composition2/CompostionCount.vue'
+      )
   }
 ]
 

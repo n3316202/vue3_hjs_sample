@@ -25,7 +25,10 @@
   <hr />
   <div id="nav">
     <router-link to="/compo1">컴포지션 기본</router-link> |
-    <router-link to="/compsition/parent">parent</router-link> |
+    <router-link to="/compo2">계산기(function)</router-link> |
+    <router-link to="/compo3">계산기(Computed)</router-link> |
+    <router-link to="/compo4">컴포지션 프로바이드(Provide)</router-link> |
+    <router-link to="/compo5">컴포지션 카운트 예제</router-link> |
   </div>
   <hr />
   <!-- <hr />
